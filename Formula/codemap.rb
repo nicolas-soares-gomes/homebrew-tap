@@ -1,25 +1,25 @@
 class Codemap < Formula
   desc "Deterministic code index for AI agents — token-cheap symbol-level navigation"
   homepage "https://github.com/nicolas-soares-gomes/codemap"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.0/codemap-aarch64-apple-darwin.tar.xz"
-      sha256 "ff10b331dd0a1e39f19cbc78bfa24cc61ec046ba78a1c72de5182a7ee7e4de83"
+      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.1/codemap-aarch64-apple-darwin.tar.xz"
+      sha256 "8425e896bb946d8a0b94eb3415653e348129ca5df08b9a3a281b127e86ac78c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.0/codemap-x86_64-apple-darwin.tar.xz"
-      sha256 "d6dcaab4d8bc1c5079de3e3438b91c056e9b98e6546da1bd1fdce639d737bb52"
+      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.1/codemap-x86_64-apple-darwin.tar.xz"
+      sha256 "4b90797b1e833c4522cc870d92cce4696ebcfdd997e80545adc02cd11e05a51c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.0/codemap-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "1a1e309fa5e96629d4f75ac88fc0c95d9677bb5d612b88fae97a38b73162604f"
+      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.1/codemap-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "0528f63ba69ee1e52ae47b28ba9be28825b06dc479330938c7c730f6463a8aa4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.0/codemap-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "4934af4fe0f931d1b5cdf2f96b7e744102907b8be1ba57a4ab62faae59c85236"
+      url "https://github.com/nicolas-soares-gomes/codemap/releases/download/v0.1.1/codemap-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "f72b3fb8b35d0929a361b2b11e163b2025c24d3f5f7dfb5d8f849ad30bde852c"
     end
   end
   license "MIT"
